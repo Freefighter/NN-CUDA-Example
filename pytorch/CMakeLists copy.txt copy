@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
 # modify to your own nvcc path, or delete it if ok
 set(CMAKE_CUDA_COMPILER "/usr/local/cuda-10.2/bin/nvcc")
-project(mixconv LANGUAGES CXX CUDA)
+project(op LANGUAGES CXX CUDA)
 
 find_package(Python REQUIRED)
 find_package(CUDA REQUIRED)
@@ -23,7 +23,7 @@ find_library(TORCH_PYTHON_LIBRARY torch_python PATHS "${TORCH_INSTALL_PREFIX}/li
 include_directories(/home/ec2-user/miniconda3/envs/adapter/include/python3.9)
 include_directories(../include)
 
-set(SRCS mixconv_ops.cpp ../kernel/mixconv_kernel.cu)
-add_library(mixconv SHARED ${SRCS})
+set(SRCS add2_ops.cpp ../kernel/add2_kernel.cu)
+add_library(op SHARED ${SRCS})
 
-target_link_libraries(mixconv "${TORCH_LIBRARIES}" "${TORCH_PYTHON_LIBRARY}")
+target_link_libraries(op "${TORCH_LIBRARIES}" "${TORCH_PYTHON_LIBRARY}")

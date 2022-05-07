@@ -1,0 +1,12 @@
+void launch_mixconv(const int64_t output_size, const int64_t channels,
+            const int64_t height, const int64_t width,
+            const int64_t *weight_ptr_list,
+            const int64_t *kernel_h_list,
+            const int64_t *kernel_w_list,
+            const int64_t *pad_h_list,
+            const int64_t *pad_w_list,
+            const int64_t stride_h, const int64_t stride_w,
+            const int64_t bottom_height, const int64_t bottom_width,
+            const float *bottom_data,
+            const float *weight_data,
+            float *top_data);

@@ -1,0 +1,3 @@
+/home/ec2-user/projects/NN-CUDA-Example/build/CMakeFiles/mixconv.dir
+/home/ec2-user/projects/NN-CUDA-Example/build/CMakeFiles/edit_cache.dir
+/home/ec2-user/projects/NN-CUDA-Example/build/CMakeFiles/rebuild_cache.dir

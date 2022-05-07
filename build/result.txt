@@ -1,0 +1,210 @@
+torch.Size([1, 1, 3, 3])
+torch.Size([1, 1, 5, 5])
+torch.Size([1, 1, 7, 7])
+Running torch...
+CPU time:  765.045us
+cuda:0 cuda:0 cuda:0 cuda:0 torch.Size([3]) [1, 1, 1]
+Running cuda...
+Cuda time:  81.730us
+Running torch...
+Torch time:  331.322us
+81.729889	2.173131	331.322352	2.608699	765.045484	31.001283
+
+torch.Size([1, 1, 3, 3])
+torch.Size([1, 1, 5, 5])
+torch.Size([1, 1, 7, 7])
+torch.Size([1, 1, 9, 9])
+torch.Size([1, 1, 11, 11])
+Running torch...
+CPU time:  1110.872us
+cuda:0 cuda:0 cuda:0 cuda:0 torch.Size([5]) [1, 1, 1, 1, 1]
+Running cuda...
+Cuda time:  67.600us
+Running torch...
+Torch time:  481.574us
+67.599614	1.013250	481.573741	2.370657	1110.871633	4.258358
+
+torch.Size([1, 1, 3, 3])
+torch.Size([1, 1, 5, 5])
+torch.Size([1, 1, 7, 7])
+torch.Size([1, 1, 9, 9])
+torch.Size([1, 1, 11, 11])
+torch.Size([1, 1, 13, 13])
+torch.Size([1, 1, 15, 15])
+Running torch...
+CPU time:  3073.120us
+cuda:0 cuda:0 cuda:0 cuda:0 torch.Size([7]) [1, 1, 1, 1, 1, 1, 1]
+Running cuda...
+Cuda time:  93.404us
+Running torch...
+Torch time:  632.342us
+93.404452	0.326680	632.341703	2.423507	3073.120117	5.377336
+
+torch.Size([1, 1, 3, 3])
+torch.Size([1, 1, 5, 5])
+torch.Size([1, 1, 7, 7])
+torch.Size([1, 1, 9, 9])
+torch.Size([1, 1, 11, 11])
+torch.Size([1, 1, 13, 13])
+torch.Size([1, 1, 15, 15])
+torch.Size([1, 1, 17, 17])
+torch.Size([1, 1, 19, 19])
+Running torch...
+CPU time:  6103.969us
+cuda:0 cuda:0 cuda:0 cuda:0 torch.Size([9]) [1, 1, 1, 1, 1, 1, 1, 1, 1]
+Running cuda...
+Cuda time:  154.034us
+Running torch...
+Torch time:  781.918us
+154.034297	0.274335	781.917572	2.275879	6103.968620	5.529172
+
+torch.Size([1, 1, 3, 3])
+torch.Size([1, 1, 5, 5])
+torch.Size([1, 1, 7, 7])
+torch.Size([1, 1, 9, 9])
+torch.Size([1, 1, 11, 11])
+torch.Size([1, 1, 13, 13])
+torch.Size([1, 1, 15, 15])
+torch.Size([1, 1, 17, 17])
+torch.Size([1, 1, 19, 19])
+torch.Size([1, 1, 21, 21])
+torch.Size([1, 1, 23, 23])
+Running torch...
+CPU time:  10667.936us
+cuda:0 cuda:0 cuda:0 cuda:0 torch.Size([11]) [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Running cuda...
+Cuda time:  200.033us
+Running torch...
+Torch time:  961.145us
+200.033188	1.711147	961.144765	4.254721	10667.936007	8.188229
+
+torch.Size([1, 1, 3, 3])
+torch.Size([1, 1, 5, 5])
+torch.Size([1, 1, 7, 7])
+torch.Size([1, 1, 9, 9])
+torch.Size([1, 1, 11, 11])
+torch.Size([1, 1, 13, 13])
+torch.Size([1, 1, 15, 15])
+torch.Size([1, 1, 17, 17])
+torch.Size([1, 1, 19, 19])
+torch.Size([1, 1, 21, 21])
+torch.Size([1, 1, 23, 23])
+torch.Size([1, 1, 25, 25])
+torch.Size([1, 1, 27, 27])
+Running torch...
+CPU time:  16773.168us
+cuda:0 cuda:0 cuda:0 cuda:0 torch.Size([13]) [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Running cuda...
+Cuda time:  289.806us
+Running torch...
+Torch time:  1203.553us
+289.805730	2.136788	1203.552882	2.697469	16773.168246	5.331786
+
+torch.Size([1, 1, 3, 3])
+torch.Size([1, 1, 5, 5])
+torch.Size([1, 1, 7, 7])
+torch.Size([1, 1, 9, 9])
+torch.Size([1, 1, 11, 11])
+torch.Size([1, 1, 13, 13])
+torch.Size([1, 1, 15, 15])
+torch.Size([1, 1, 17, 17])
+torch.Size([1, 1, 19, 19])
+torch.Size([1, 1, 21, 21])
+torch.Size([1, 1, 23, 23])
+torch.Size([1, 1, 25, 25])
+torch.Size([1, 1, 27, 27])
+torch.Size([1, 1, 29, 29])
+torch.Size([1, 1, 31, 31])
+Running torch...
+CPU time:  24682.808us
+cuda:0 cuda:0 cuda:0 cuda:0 torch.Size([15]) [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Running cuda...
+Cuda time:  387.597us
+Running torch...
+Torch time:  1511.574us
+387.597084	3.041824	1511.573792	3.093597	24682.807922	16.750377
+
+torch.Size([1, 1, 3, 3])
+torch.Size([1, 1, 5, 5])
+torch.Size([1, 1, 7, 7])
+torch.Size([1, 1, 9, 9])
+torch.Size([1, 1, 11, 11])
+torch.Size([1, 1, 13, 13])
+torch.Size([1, 1, 15, 15])
+torch.Size([1, 1, 17, 17])
+torch.Size([1, 1, 19, 19])
+torch.Size([1, 1, 21, 21])
+torch.Size([1, 1, 23, 23])
+torch.Size([1, 1, 25, 25])
+torch.Size([1, 1, 27, 27])
+torch.Size([1, 1, 29, 29])
+torch.Size([1, 1, 31, 31])
+torch.Size([1, 1, 33, 33])
+torch.Size([1, 1, 35, 35])
+Running torch...
+CPU time:  21358.029us
+cuda:0 cuda:0 cuda:0 cuda:0 torch.Size([17]) [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Running cuda...
+Cuda time:  489.124us
+Running torch...
+Torch time:  1906.379us
+489.123662	4.797765	1906.379064	3.489110	21358.029048	276.816426
+
+torch.Size([1, 1, 3, 3])
+torch.Size([1, 1, 5, 5])
+torch.Size([1, 1, 7, 7])
+torch.Size([1, 1, 9, 9])
+torch.Size([1, 1, 11, 11])
+torch.Size([1, 1, 13, 13])
+torch.Size([1, 1, 15, 15])
+torch.Size([1, 1, 17, 17])
+torch.Size([1, 1, 19, 19])
+torch.Size([1, 1, 21, 21])
+torch.Size([1, 1, 23, 23])
+torch.Size([1, 1, 25, 25])
+torch.Size([1, 1, 27, 27])
+torch.Size([1, 1, 29, 29])
+torch.Size([1, 1, 31, 31])
+torch.Size([1, 1, 33, 33])
+torch.Size([1, 1, 35, 35])
+torch.Size([1, 1, 37, 37])
+torch.Size([1, 1, 39, 39])
+Running torch...
+CPU time:  29091.708us
+cuda:0 cuda:0 cuda:0 cuda:0 torch.Size([19]) [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Running cuda...
+Cuda time:  555.515us
+Running torch...
+Torch time:  2171.008us
+555.515289	4.620266	2171.007792	4.395147	29091.707865	377.033800
+
+torch.Size([1, 1, 3, 3])
+torch.Size([1, 1, 5, 5])
+torch.Size([1, 1, 7, 7])
+torch.Size([1, 1, 9, 9])
+torch.Size([1, 1, 11, 11])
+torch.Size([1, 1, 13, 13])
+torch.Size([1, 1, 15, 15])
+torch.Size([1, 1, 17, 17])
+torch.Size([1, 1, 19, 19])
+torch.Size([1, 1, 21, 21])
+torch.Size([1, 1, 23, 23])
+torch.Size([1, 1, 25, 25])
+torch.Size([1, 1, 27, 27])
+torch.Size([1, 1, 29, 29])
+torch.Size([1, 1, 31, 31])
+torch.Size([1, 1, 33, 33])
+torch.Size([1, 1, 35, 35])
+torch.Size([1, 1, 37, 37])
+torch.Size([1, 1, 39, 39])
+torch.Size([1, 1, 41, 41])
+torch.Size([1, 1, 43, 43])
+Running torch...
+CPU time:  37854.703us
+cuda:0 cuda:0 cuda:0 cuda:0 torch.Size([21]) [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Running cuda...
+Cuda time:  792.853us
+Running torch...
+Torch time:  2724.616us
+792.853038	6.757566	2724.615733	23.059632	37854.703267	405.728709
+
